@@ -6,7 +6,7 @@ You require two different conda-environments since PyTorch and TensorFlow have i
 
 `conda activate dlpt`
 
-`conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch`
+`conda install pytorch torchvision torchaudio nb_conda cudatoolkit=10.2 -c pytorch`
 
 `pip install numpy matplotlib tqdm jupyter requests`
 
@@ -15,6 +15,8 @@ You require two different conda-environments since PyTorch and TensorFlow have i
 `conda create -n dltf python=3.7 tensorflow-gpu`
 
 `conda activate dltf`
+
+`conda install nb_conda`
 
 `pip install numpy matplotlib tqdm jupyter`
 
